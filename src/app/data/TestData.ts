@@ -5,10 +5,10 @@ import {Task} from "../model/Task"
 export class TestData {
 
   static categories: Category[] = [
-    {id: 1, title: 'Работа'},
-    {id: 2, title: 'Семья'},
-    {id: 3, title: 'Учеба'},
-    {id: 4, title: 'Отдых'},
+    {id: 1, title: 'Работа', icon: 'search'},
+    {id: 2, title: 'Семья', icon: 'home'},
+    {id: 3, title: 'Учеба', icon: 'settings'},
+    {id: 4, title: 'Отдых', icon: 'dashboard'},
     {id: 5, title: 'Спорт'},
     {id: 6, title: 'Еда'},
     {id: 7, title: 'Финансы'},

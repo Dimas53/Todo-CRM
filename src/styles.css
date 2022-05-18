@@ -9,4 +9,18 @@ html, body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 17.125rem;
+}
+
+.bg-gray-200 {
+  height: 100vh;
 }
