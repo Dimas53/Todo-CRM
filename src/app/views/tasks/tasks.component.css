@@ -14,7 +14,20 @@
 
 .overflow-task {
   height: 65vh;
-  overflow: overlay;
+  overflow: auto;
 }
 
+.form-check {
+  padding-left: 0;
+  text-align: center;
+}
+
+.completed, .completed * {
+  text-decoration: line-through;
+  color: #43A047;
+}
+
+.novalue {
+  color: #1a73e8;
+}
 
